@@ -1,0 +1,23 @@
+.todo {
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+}
+
+span {
+    margin-left: 8px;
+}
+
+.is-completed span {
+    text-decoration: line-through;
+}
+
+button {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    margin-left: 8px;
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}

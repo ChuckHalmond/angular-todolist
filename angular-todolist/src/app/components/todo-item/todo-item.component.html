@@ -1,0 +1,5 @@
+<div [class]="classes()">
+    <p>
+        <input (change)="onToggle($event)" type="checkbox"/><span>{{ todo.title }}</span><button (click)="onDelete($event)">x</button>
+    </p>
+</div>

@@ -1,0 +1,6 @@
+<h1>Todos</h1>
+<hr>
+<app-todo-item *ngFor="let todo of todos" [todo]="todo" (delete)="deleteTodo($event)" (toggle)="toggleTodo($event)"></app-todo-item>
+<p>
+    <button (click)="queryTodo()">new todo</button>
+</p>
